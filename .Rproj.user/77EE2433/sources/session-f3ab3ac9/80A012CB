@@ -3,7 +3,7 @@
     "path": "~/Contratos/C002_2024/APRESENTACOES/03_08_2024/CABV_Slides_03_08_2024/custom.css",
     "project_path": "custom.css",
     "type": "css",
-    "hash": "0",
+    "hash": "3958334501",
     "contents": "",
     "dirty": false,
     "created": 1722726225565.0,
@@ -11,14 +11,16 @@
     "relative_order": 7,
     "properties": {
         "source_window_id": "",
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "16,13",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1722685184,
+    "lastKnownWriteTime": 1722727829,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1722685184,
+    "last_content_update": 1722727829456,
     "read_only": false,
     "read_only_alternatives": []
 }

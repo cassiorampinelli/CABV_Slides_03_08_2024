@@ -1,7 +1,7 @@
 ---
 title: "Ampliação do Sistema de Captação de Água do CABV"
 author: "Cássio Rampinelli & Magno Costa"
-date: "`r Sys.Date()`"  # This will automatically insert today's date
+date: "03/08/2024"  #  date
 format: 
   revealjs:
     css: custom.css

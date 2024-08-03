@@ -2,19 +2,19 @@
 .reveal .top-center-logo {
     position: fixed;
     top: 0;
-    left: 50%;
+    left: 30%;
     transform: translateX(-50%);
-    height: 100px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
     padding: 5px;
     z-index: 1000; /* Ensure it is above other content */
 }
 
 .reveal .bottom-center-logo {
     position: fixed;
-    bottom: 5%;
+    bottom: 0; /* Stick to the bottom edge */
     left: 50%;
     transform: translateX(-50%);
-    height: 100px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
     padding: 5px;
     z-index: 1000; /* Ensure it is above other content */
 }
@@ -25,7 +25,6 @@
   height: auto; /* Maintain aspect ratio */
   display: block; /* Block-level element */
   margin: 0 auto; /* Center horizontally */
-  text-align: center; /* Center-align text and inline elements */
   position: relative; /* Allows positioning of child elements */
 }
 
@@ -42,28 +41,13 @@
   opacity: 1;
 }
 
-
-/* Ensure top padding to avoid overlap with background image */
+/* Ensure top padding to avoid overlap with top logo */
 .reveal .slides > section {
-    padding-top: 80px; /* Adjust this value as needed */
+    padding-top: 120px; /* Increase if necessary */
+    padding-bottom: 120px; /* Increase if necessary */
 }
 
-/* Style for titles to ensure they are not obscured */
-.reveal .slides > section h1, 
-.reveal .slides > section h2, 
-.reveal .slides > section h3 {
-    z-index: 1; /* Ensure titles are on top */
-    position: relative; /* Allow z-index to take effect */
-    padding-top: 10px; /* Additional padding if needed */
-}
-
-
-/* Ensure bottom padding to avoid overlap with background image */
-.reveal .slides > section {
-    padding-bottom: 100px; /* Adjust this value as needed */
-}
-
-/* Optional: Add a background to the bottom of the slide if necessary */
+/* Ensure bottom padding to avoid overlap with bottom logo */
 .reveal .slides > section::after {
     content: "";
     display: block;
